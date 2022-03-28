@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    background-image: url("./lodka.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+}
+
+.word {
+    margin: 0;
+    text-indent: 0.5cm;
+}
+
+.bigtext {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: bisque;
+    text-shadow: 5px 5px 10px rgb(87, 17, 38);
+    font-size: 45px;
+}
+
+.bigtext1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    color: rgb(30, 30, 30);
+    text-shadow: 5px 5px 15px rgb(104, 104, 104);
+    font-size: 40px;
+}
+
+.smalltext {
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    text-shadow: 5px 5px 10px rgb(56, 14, 58);
+    font-size: 35px;
+}
+
+.text3 {
+    color: bisque;
+    text-shadow: 5px 5px 10px rgb(56, 14, 58);
+    transition: all 0.4s linear;
+    font-size: 30px;
+}
+
+.text3:hover {
+    color: brown;
+}
+
+.superclass {
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+}
+
+.superclass a {
+    display: flex;
+    justify-content: center;
+}
+
+.Red1 {
+    color: brown;
+    font-size: 29px;
+}
+
+.under {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    margin: 40px 60px;
+    padding-top: 15px;
+    text-align: center;
+    background: rgb(241, 235, 225);
+    border-radius: 60px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li:after {
+    content: "||";
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+}
+
+.menu li:last-child:after {
+    content: none;
+}
+
+.menu a {
+    text-decoration: none;
+    letter-spacing: 5px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 30px 0 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color 0.5s;
+    color: #746f74;
+}
+
+.menu a:hover {
+    color: brown;
+}
+
+
+/*  второй слой  */
+
+.menu2 {
+    list-style: none;
+    margin: 15px;
+    padding: 30px 5px 5px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.menu2 li {
+    display: inline-block;
+}
+
+.menu2 li:after {
+    content: "||";
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 55px;
+    font-size: 20px;
+    color: brown;
+}
+
+.menu2 li:last-child:after {
+    content: none;
+}
+
+.menu2 a {
+    text-decoration: none;
+    letter-spacing: 5px;
+    position: relative;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    margin: 0 30px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color 0.5s;
+    font-size: 20px;
+    color: bisque;
+}
+
+.menu2 a:hover {
+    color: brown;
+}
