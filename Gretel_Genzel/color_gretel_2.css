@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url("./ptitsa_siluet_vektor_134154_3840x2400.jpeg");
+    background-image: url("./skala_siluet_odinochestvo_162991_3840x2400.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: initial;
@@ -17,14 +17,14 @@ body {
     justify-content: center;
     padding-top: 30px;
     color: bisque;
-    text-shadow: 5px 5px 10px rgb(87, 17, 38);
+    text-shadow: 5px 5px 10px rgb(70, 70, 70);
 }
 
 .text3 {
     color: bisque;
-    text-shadow: 5px 5px 10px rgb(87, 17, 38);
+    text-shadow: 5px 5px 10px rgb(70, 70, 70);
     transition: all 0.4s linear;
-    font-size: 26px;
+    font-size: 25px;
 }
 
 .superclass {
@@ -45,7 +45,7 @@ body {
 }
 
 .under {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-bottom: 10px;
 }
 
