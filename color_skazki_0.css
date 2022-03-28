@@ -185,14 +185,14 @@ a {
     align-items: center;
     flex: 0 0 auto;
     text-align: center;
-    padding: 10px 10px 10px;
+    padding: 5px 5px 5px;
     background: rgb(241, 235, 225);
     border-radius: 60px;
     border: 2px brown solid;
 }
 
 .header-logo {
-    height: 55px;
+    height: 60px;
 }
 
 .biblio {
@@ -213,7 +213,7 @@ a {
     color: brown;
     display: inline-block;
     margin: 0 15px;
-    font-size: 25px;
+    font-size: 26px;
 }
 
 .header-nav li:first-child::before {
@@ -223,7 +223,11 @@ a {
 .header-nav li a {
     text-decoration: none;
     color: gray;
-    font-size: 25px;
+    font-size: 26px;
     letter-spacing: 5px;
     text-transform: uppercase;
+}
+
+.header-nav a:hover {
+    color: brown;
 }
