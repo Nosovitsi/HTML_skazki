@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url("./skala_siluet_odinochestvo_162991_3840x2400.jpeg");
+    background-image: url("./les_tuman_chb_157928_3840x2400.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: initial;
@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    color: rgb(20, 20, 20);
+    color: bisque;
     text-shadow: 5px 5px 10px rgb(70, 70, 70);
 }
 
