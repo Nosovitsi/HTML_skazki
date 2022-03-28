@@ -16,8 +16,8 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    color: bisque;
-    text-shadow: 5px 5px 10px rgb(87, 17, 38);
+    color: rgb(20, 20, 20);
+    text-shadow: 5px 5px 10px rgb(70, 70, 70);
 }
 
 .text3 {
@@ -61,11 +61,12 @@ a {
 }
 
 .menu li:after {
-    content: "||";
+    content: "|||";
     color: rgb(102, 102, 102);
     display: inline-block;
     vertical-align: top;
     font-size: 20px;
+    color: brown;
 }
 
 .menu li:last-child:after {

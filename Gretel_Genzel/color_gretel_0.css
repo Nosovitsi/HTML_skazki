@@ -17,7 +17,7 @@ body {
     justify-content: center;
     padding-top: 10px;
     color: bisque;
-    text-shadow: 5px 5px 10px rgb(87, 17, 38);
+    text-shadow: 5px 5px 10px rgb(70, 70, 70);
     font-size: 45px;
 }
 
@@ -34,13 +34,13 @@ body {
     display: flex;
     justify-content: center;
     color: bisque;
-    text-shadow: 5px 5px 10px rgb(56, 14, 58);
+    text-shadow: 5px 5px 10px rgb(70, 70, 70);
     font-size: 35px;
 }
 
 .text3 {
     color: bisque;
-    text-shadow: 5px 5px 10px rgb(56, 14, 58);
+    text-shadow: 5px 5px 10px rgb(70, 70, 70);
     transition: all 0.4s linear;
     font-size: 25px;
 }
@@ -49,35 +49,10 @@ body {
     color: brown;
 }
 
-.tower {
-    border-radius: 100%;
-    border: 7px solid rgb(128, 180, 180);
-    width: 150px;
-    height: 150px;
-}
-
-.tower:hover {
-    border: rgb(66, 27, 110) 7px solid;
-}
-
 .superclass {
     display: flex;
     justify-content: center;
     padding-top: 85px;
-}
-
-.dforest {
-    display: flex;
-    align-items: center;
-}
-
-.ddforest:hover {
-    border: rgb(66, 27, 110) 7px solid;
-}
-
-#Red1 {
-    color: brown;
-    font-size: 29px;
 }
 
 .Red1 {
