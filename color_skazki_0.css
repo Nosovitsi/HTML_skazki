@@ -81,9 +81,12 @@ a {
     list-style: none;
     margin: 40px 60px;
     padding-top: 15px;
+    align-items: center;
+    flex: 0 0 auto;
     text-align: center;
     background: rgb(241, 235, 225);
     border-radius: 60px;
+    border: 2px brown solid;
 }
 
 .menu li {
@@ -92,11 +95,14 @@ a {
 
 .menu li:after {
     content: "|||";
-    color: rgb(102, 102, 102);
+    color: brown;
     display: inline-block;
     vertical-align: top;
     font-size: 20px;
-    color: brown;
+}
+
+.menu li:last-child:after {
+    content: none;
 }
 
 .menu li:last-child:after {
@@ -166,4 +172,58 @@ a {
 
 .menu2 a:hover {
     color: brown;
+}
+
+
+/* третий слой */
+
+.header {
+    list-style: none;
+    margin: 40px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 10px 10px 10px;
+    background: rgb(241, 235, 225);
+    border-radius: 60px;
+    border: 2px brown solid;
+}
+
+.header-logo {
+    height: 55px;
+}
+
+.biblio {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.header-nav {
+    list-style: none;
+}
+
+.header-nav li {
+    display: inline;
+}
+
+.header-nav li::before {
+    content: "|||";
+    color: brown;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.header-nav li:first-child::before {
+    content: "";
+}
+
+.header-nav li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
