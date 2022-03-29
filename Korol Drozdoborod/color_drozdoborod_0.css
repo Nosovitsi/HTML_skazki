@@ -61,57 +61,12 @@ body {
 }
 
 .under {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 30px;
-    padding-left: 30px;
     padding-top: 100px;
+    padding-bottom: 10px;
 }
 
 a {
     text-decoration: none;
-}
-
-.menu {
-    list-style: none;
-    margin: 40px 60px;
-    padding-top: 15px;
-    text-align: center;
-    background: rgb(241, 235, 225);
-    border-radius: 60px;
-}
-
-.menu li {
-    display: inline-block;
-}
-
-.menu li:after {
-    content: "||";
-    color: rgb(102, 102, 102);
-    display: inline-block;
-    vertical-align: top;
-    font-size: 20px;
-}
-
-.menu li:last-child:after {
-    content: none;
-}
-
-.menu a {
-    text-decoration: none;
-    letter-spacing: 5px;
-    position: relative;
-    padding-bottom: 20px;
-    margin: 0 30px 0 30px;
-    font-size: 20px;
-    text-transform: uppercase;
-    display: inline-block;
-    transition: color 0.5s;
-    color: #746f74;
-}
-
-.menu a:hover {
-    color: brown;
 }
 
 
@@ -201,7 +156,7 @@ a {
     color: brown;
     display: inline-block;
     margin: 0 15px;
-    font-size: 26px;
+    font-size: 25px;
 }
 
 .header-nav li:first-child::before {
@@ -210,8 +165,8 @@ a {
 
 .header-nav li a {
     text-decoration: none;
-    color: gray;
-    font-size: 26px;
+    color: rgb(70, 70, 70);
+    font-size: 25px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }

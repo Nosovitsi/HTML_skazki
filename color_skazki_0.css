@@ -213,7 +213,7 @@ a {
     color: brown;
     display: inline-block;
     margin: 0 15px;
-    font-size: 26px;
+    font-size: 25px;
 }
 
 .header-nav li:first-child::before {
@@ -222,8 +222,8 @@ a {
 
 .header-nav li a {
     text-decoration: none;
-    color: gray;
-    font-size: 26px;
+    color: rgb(70, 70, 70);
+    font-size: 25px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
