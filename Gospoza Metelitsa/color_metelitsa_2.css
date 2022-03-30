@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    background-image: url("./odinochestvo_odinokij_zima_180779_3840x2400.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+}
+
+.word {
+    margin: 0;
+    text-indent: 0.5cm;
+}
+
+.bigtext {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: rgb(70, 70, 70);
+    text-shadow: 5px 4px 15px rgb(190, 173, 173);
+    font-size: 45px;
+}
+
+.text3 {
+    color: rgb(70, 70, 70);
+    text-shadow: 5px 4px 15px rgb(190, 173, 173);
+    transition: all 0.4s linear;
+    font-size: 25px;
+}
+
+.superclass {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.Red1 {
+    color: brown;
+    font-size: 29px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*  второй слой  */
+
+.footer {
+    list-style: none;
+    margin: 40px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 4px 3px 4px;
+    background: rgb(241, 235, 225);
+    border-radius: 60px;
+    border: 3px brown solid;
+    box-shadow: 0 0 0 5px rgb(241, 235, 225);
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer li:after {
+    content: "||";
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0px;
+    font-size: 20px;
+    color: brown;
+}
+
+.footer li:last-child:after {
+    content: none;
+}
+
+.footer li a {
+    margin: 0 30px;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+    text-shadow: 5px 5px 15px bisque;
+    transition: all 0.4s linear;
+}
+
+.footer a:hover {
+    color: brown;
+}
+
+.border1 {
+    display: flex;
+    padding: 10px 155px 10px;
+    border-radius: 60px;
+    border: 3px solid rgb(87, 17, 38);
+}
+
+.under {
+    padding-top: 160px;
+}
+
+
+/* третий слой */
+
+.header {
+    list-style: none;
+    margin: 40px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 4px 3px 4px;
+    background: rgb(241, 235, 225);
+    border-radius: 60px;
+    border: 3px brown solid;
+    box-shadow: 0 0 0 5px rgb(241, 235, 225);
+}
+
+.header-logo {
+    height: 60px;
+}
+
+.biblio {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.header-nav {
+    list-style: none;
+}
+
+.header-nav li {
+    display: inline;
+}
+
+.header-nav li::before {
+    content: "|||";
+    color: brown;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 25px;
+}
+
+.header-nav li:first-child::before {
+    content: "";
+}
+
+.header-nav li a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-size: 23px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.header-nav a:hover {
+    color: brown;
+}
+
+.border {
+    display: flex;
+    padding: 4px 428px 4px;
+    border-radius: 60px;
+    border: 3px solid rgb(87, 17, 38);
+}
