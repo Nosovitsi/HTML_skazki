@@ -177,4 +177,7 @@ footer {
         letter-spacing: 3px;
         text-transform: uppercase;
     }
+    .header-logo {
+        height: none;
+    }
 }
