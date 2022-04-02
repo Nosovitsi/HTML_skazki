@@ -164,8 +164,8 @@ footer {
         content: "|||";
         color: brown;
         display: inline-block;
-        margin: 0 15px;
-        font-size: 20px;
+        margin: 0 10px;
+        font-size: 18px;
     }
     .header-nav li:first-child::before {
         content: "";
@@ -173,7 +173,7 @@ footer {
     .header-nav li a {
         text-decoration: none;
         color: rgb(70, 70, 70);
-        font-size: 20px;
+        font-size: 18px;
         letter-spacing: 5px;
         text-transform: uppercase;
     }
