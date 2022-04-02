@@ -70,8 +70,8 @@ footer {
     flex: 0 0 auto;
     padding: 5px 5px 5px;
     margin: 40px 70px;
-    border: 3px brown solid;
-    box-shadow: 0 0 0 5px rgb(241, 235, 225);
+    border: 3px black solid;
+    box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
     border-radius: 60px;
 }
 
@@ -86,11 +86,12 @@ footer {
     align-items: center;
     flex: 0 0 auto;
     text-align: center;
-    padding: 4px 3px 4px;
+    padding: 15px 5px 5px;
     background: rgb(241, 235, 225);
     border-radius: 60px;
-    border: 3px brown solid;
-    box-shadow: 0 0 0 5px rgb(241, 235, 225);
+    border: 3px black solid;
+    box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
+    border-radius: 60px;
 }
 
 .header-logo {
