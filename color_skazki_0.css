@@ -144,35 +144,37 @@ footer {
 
 /* Мобилка */
 
-
-/* Мобилка 
-
 @media screen and (max-width: 400px) {
-    body {
-        flex-direction: column-reverse;
+    .header {
+        list-style: none;
+        margin: 40px 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        text-align: center;
+        padding: 5px 10px 5px;
+        background: rgb(241, 235, 225);
+        border-radius: 60px;
+        border: 3px black solid;
+        box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
+        border-radius: 60px;
     }
-    .up {
-        width: 100%;
+    .header-nav li::before {
+        content: "|||";
+        color: brown;
+        display: inline-block;
+        margin: 0 15px;
+        font-size: 20px;
     }
-    .down {
-        width: 100%;
+    .header-nav li:first-child::before {
+        content: "";
+    }
+    .header-nav li a {
+        text-decoration: none;
+        color: rgb(70, 70, 70);
+        font-size: 20px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
     }
 }
-
-.header {
-    list-style: none;
-    margin: 40px 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 auto;
-    text-align: center;
-    padding: 5px 15px 5px;
-    background: rgb(241, 235, 225);
-    border-radius: 60px;
-    border: 3px black solid;
-    box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
-    border-radius: 60px;
-}
-
-*/
