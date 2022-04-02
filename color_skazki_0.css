@@ -180,4 +180,8 @@ footer {
     .header-logo {
         height: none;
     }
+    .biblio {
+        height: 0%;
+        border-radius: 10px;
+    }
 }
