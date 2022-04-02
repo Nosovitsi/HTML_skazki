@@ -86,12 +86,11 @@ footer {
     align-items: center;
     flex: 0 0 auto;
     text-align: center;
-    padding: 5px 15px 5px;
+    padding: 4px 3px 4px;
     background: rgb(241, 235, 225);
     border-radius: 60px;
-    border: 3px black solid;
-    box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
-    border-radius: 60px;
+    border: 3px brown solid;
+    box-shadow: 0 0 0 5px rgb(241, 235, 225);
 }
 
 .header-logo {
@@ -145,6 +144,9 @@ footer {
 
 /* Мобилка */
 
+
+/* Мобилка 
+
 @media screen and (max-width: 400px) {
     body {
         flex-direction: column-reverse;
@@ -156,3 +158,21 @@ footer {
         width: 100%;
     }
 }
+
+.header {
+    list-style: none;
+    margin: 40px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 5px 15px 5px;
+    background: rgb(241, 235, 225);
+    border-radius: 60px;
+    border: 3px black solid;
+    box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
+    border-radius: 60px;
+}
+
+*/
