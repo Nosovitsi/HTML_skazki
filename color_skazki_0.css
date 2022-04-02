@@ -14,33 +14,6 @@ body {
     min-height: 100vh;
 }
 
-.text3 {
-    color: bisque;
-    text-shadow: 5px 5px 10px rgb(56, 14, 58);
-    transition: all 0.4s linear;
-    font-size: 30px;
-}
-
-.text3:hover {
-    color: brown;
-}
-
-.superclass {
-    display: flex;
-    justify-content: center;
-    padding-top: 85px;
-}
-
-.superclass a {
-    display: flex;
-    justify-content: center;
-}
-
-.Red1 {
-    color: brown;
-    font-size: 29px;
-}
-
 a {
     text-decoration: none;
 }
@@ -70,11 +43,18 @@ a {
 .down {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
-.down1 {
-    display: flex;
-    justify-content: center;
+.text {
+    color: rgb(70, 70, 70);
+    text-shadow: 5px 5px 10px rgb(56, 14, 58);
+    transition: all 0.4s linear;
+    font-size: 30px;
+}
+
+.text:hover {
+    color: bisque;
 }
 
 
