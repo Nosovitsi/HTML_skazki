@@ -144,7 +144,7 @@ footer {
 
 /* Мобилка */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .header {
         list-style: none;
         margin: 25px 55px;
