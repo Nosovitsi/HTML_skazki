@@ -74,6 +74,7 @@ footer {
     border: 3px black solid;
     box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
     border-radius: 60px;
+    position: relative;
 }
 
 
@@ -92,6 +93,7 @@ footer {
     border: 3px black solid;
     box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
     border-radius: 60px;
+    position: relative;
 }
 
 .header-logo {
@@ -153,6 +155,7 @@ footer {
         border: 3px black solid;
         box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
         border-radius: 60px;
+        position: relative;
     }
     .header-nav li::before {
         content: "|||";
