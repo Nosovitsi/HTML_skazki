@@ -207,4 +207,7 @@ footer {
         height: 0%;
         border-radius: 10px;
     }
+    .text {
+        font-size: 18px;
+    }
 }
