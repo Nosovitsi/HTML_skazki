@@ -1,31 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    background-image: url("./odinokij_art_pole_127230_3840x2400.jpeg");
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./bashnia_zdanie_art_167317_3840x2400.jpeg");
     background-repeat: no-repeat;
-    background-position: initial;
+    background-size: cover;
     background-attachment: fixed;
+    min-height: 100vh;
 }
 
-.word {
-    margin: 0;
-    text-indent: 0.5cm;
+a {
+    text-decoration: none;
 }
 
-.bigtext {
+
+/* второй слой */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+
+/* Блок текста */
+
+.up {
     display: flex;
     justify-content: center;
-    padding-top: 10px;
-    color: rgb(70, 70, 70);
-    text-shadow: 5px 4px 15px rgb(190, 173, 173);
-    font-size: 45px;
+    width: 100%;
+    padding: 30px;
 }
 
-.text3 {
-    color: rgb(70, 70, 70);
-    text-shadow: 5px 4px 15px rgb(190, 173, 173);
-    transition: all 0.4s linear;
-    font-size: 25px;
+.down {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
 }
 
 .superclass {
@@ -34,77 +50,59 @@ body {
     padding-top: 50px;
 }
 
+
+/* Шрифты */
+
+.bigtext {
+    display: flex;
+    justify-content: center;
+    color: brown;
+    text-shadow: 5px 5px 10px rgb(30, 30, 30);
+    font-size: 45px;
+}
+
+.bigtext1 {
+    color: brown;
+    text-shadow: 5px 5px 10px rgb(30, 30, 30);
+    font-size: 40px;
+}
+
+.smalltext {
+    color: brown;
+    text-shadow: 5px 5px 10px rgb(30, 30, 30);
+    font-size: 35px;
+}
+
+.text {
+    color: rgb(30, 30, 30);
+    text-shadow: 5px 5px 10px rgb(160, 160, 160);
+    transition: all 0.4s linear;
+    font-size: 25px;
+}
+
+.word {
+    margin: 0;
+    text-indent: 0.5cm;
+}
+
 .Red1 {
     color: brown;
     font-size: 29px;
 }
 
-.under {
-    padding-top: 100px;
-    padding-bottom: 10px;
-}
 
-a {
-    text-decoration: none;
-}
+/* третий слой */
 
-
-/*  второй слой  */
-
-.footer {
-    list-style: none;
-    margin: 40px 70px;
+footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex: 0 0 auto;
-    text-align: center;
-    padding: 4px 3px 4px;
     background: rgb(241, 235, 225);
+    flex: 0 0 auto;
+    padding: 5px 5px 5px;
+    margin: 40px 70px;
+    border: 3px black solid;
+    box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
     border-radius: 60px;
-    border: 3px brown solid;
-    box-shadow: 0 0 0 5px rgb(241, 235, 225);
-}
-
-.footer li {
-    display: inline;
-}
-
-.footer li:after {
-    content: "||";
-    color: rgb(102, 102, 102);
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 0px;
-    font-size: 20px;
-    color: brown;
-}
-
-.footer li:last-child:after {
-    content: none;
-}
-
-.footer li a {
-    margin: 0 30px;
-    text-decoration: none;
-    position: relative;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: rgb(70, 70, 70);
-    text-shadow: 5px 5px 15px bisque;
-    transition: all 0.4s linear;
-}
-
-.footer a:hover {
-    color: brown;
-}
-
-.border1 {
-    display: flex;
-    padding: 10px 145px 10px;
-    border-radius: 60px;
-    border: 3px solid rgb(87, 17, 38);
 }
 
 
@@ -118,15 +116,15 @@ a {
     align-items: center;
     flex: 0 0 auto;
     text-align: center;
-    padding: 4px 3px 4px;
+    padding: 5px 15px 5px;
     background: rgb(241, 235, 225);
+    border: 3px black solid;
+    box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
     border-radius: 60px;
-    border: 3px brown solid;
-    box-shadow: 0 0 0 5px rgb(241, 235, 225);
 }
 
 .header-logo {
-    height: 60px;
+    height: 50px;
 }
 
 .biblio {
@@ -166,9 +164,47 @@ a {
     color: brown;
 }
 
-.border {
-    display: flex;
-    padding: 4px 419px 4px;
-    border-radius: 60px;
-    border: 3px solid rgb(87, 17, 38);
+
+/* Мобилка */
+
+@media screen and (max-width: 500px) {
+    .header {
+        list-style: none;
+        margin: 25px 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        text-align: center;
+        padding: 3px 5px 3px;
+        background: rgb(241, 235, 225);
+        border-radius: 60px;
+        border: 3px black solid;
+        box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
+        border-radius: 60px;
+    }
+    .header-nav li::before {
+        content: "|||";
+        color: brown;
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 15px;
+    }
+    .header-nav li:first-child::before {
+        content: "";
+    }
+    .header-nav li a {
+        text-decoration: none;
+        color: rgb(70, 70, 70);
+        font-size: 15px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    .header-logo {
+        height: none;
+    }
+    .biblio {
+        height: 0%;
+        border-radius: 10px;
+    }
 }
