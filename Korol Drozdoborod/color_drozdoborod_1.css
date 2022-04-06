@@ -94,15 +94,50 @@ a {
 /* третий слой */
 
 footer {
+    list-style: none;
+    margin: 40px 70px;
     display: flex;
     justify-content: center;
-    background: rgb(241, 235, 225);
+    align-items: center;
     flex: 0 0 auto;
-    padding: 5px 5px 5px;
-    margin: 40px 70px;
+    text-align: center;
+    padding: 5px 15px 5px;
+    background: rgb(241, 235, 225);
     border: 3px black solid;
     box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
     border-radius: 60px;
+}
+
+.footer-nav {
+    list-style: none;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav li::before {
+    content: "|||";
+    color: brown;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 22px;
+}
+
+.footer-nav li:first-child::before {
+    content: "";
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-size: 22px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.footer-nav a:hover {
+    color: brown;
 }
 
 
@@ -145,7 +180,7 @@ footer {
     color: brown;
     display: inline-block;
     margin: 0 15px;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .header-nav li:first-child::before {
@@ -207,7 +242,37 @@ footer {
         height: 0%;
         border-radius: 10px;
     }
+    /* Текст */
     .text {
         font-size: 18px;
+    }
+    /* Футер */
+    footer {
+        list-style: none;
+        margin: 25px 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        text-align: center;
+        padding: 3px 5px 3px;
+        background: rgb(241, 235, 225);
+        border: 3px black solid;
+        box-shadow: 0 0 0 5px rgb(241, 235, 225), 0 0 0 8px brown, 0 0 0 15px rgb(241, 235, 225);
+        border-radius: 60px;
+    }
+    .footer-nav li::before {
+        content: "|||";
+        color: brown;
+        display: inline-block;
+        margin: 0 15px;
+        font-size: 15px;
+    }
+    .footer-nav li a {
+        text-decoration: none;
+        color: rgb(70, 70, 70);
+        font-size: 15px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
     }
 }
